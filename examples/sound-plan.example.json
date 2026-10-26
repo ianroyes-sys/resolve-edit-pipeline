@@ -1,0 +1,22 @@
+{
+  "tail_frames": 120,
+  "music": {
+    "source": "/path/to/licensed/track.wav",
+    "source_in": 50,
+    "target_lufs": -20,
+    "fade_in": 0.8,
+    "fade_out": 4,
+    "duck_db": -17,
+    "ramp": 0.5,
+    "duck_under": ["C0042"]
+  },
+  "dialogue": [
+    {"clip": "C0042", "target_lufs": -16, "prefilter": "highpass=f=70,lowpass=f=8500", "fade": 0.012}
+  ],
+  "natural": [
+    {"clip": "C0051", "target_lufs": -28, "prefilter": "highpass=f=70", "fade": 0.08}
+  ],
+  "sfx": [
+    {"source": "/path/to/sfx/soft-whoosh-01.wav", "at_clip": "C0014", "lead": 0.12, "duration": 0.8, "peak_dbfs": -25}
+  ]
+}

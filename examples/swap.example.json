@@ -1,0 +1,9 @@
+{
+  "timeline": "Game Recap 60s v1",
+  "source_frames": 36,
+  "expected_duration": 90,
+  "swaps": {
+    "C0295": {"new": "C0332", "source_in": 17, "why": "made three, ref signals good"},
+    "C0381": {"new": "C0396", "source_in": 90, "why": "ball through net; next shot is crowd reaction"}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "project": "Spring Gala - Recap - v01",
+  "timeline": "Spring Gala - Story assembly v01",
+  "fps": 23.976023976023978,
+  "width": 1920,
+  "height": 1080,
+  "project_settings": {
+    "timelineFrameRate": "23.976",
+    "timelinePlaybackFrameRate": "23.976",
+    "timelineResolutionWidth": "1920",
+    "timelineResolutionHeight": "1080",
+    "colorScienceMode": "davinciYRGBColorManaged",
+    "isAutoColorManage": "0",
+    "rcmPresetMode": "Custom",
+    "colorSpaceInput": "Sony S-Gamut3.Cine/S-Log3",
+    "colorSpaceTimeline": "DaVinci WG/Intermediate",
+    "colorSpaceOutput": "Rec.709 Gamma 2.4"
+  },
+  "audio_tracks": ["Dialogue", "Natural sound", "Music", "SFX"],
+  "sync_audio_clip": "C0042",
+  "shots": [
+    {"clip": "C0011", "in": 1.8, "duration": 1.5, "role": "Opening detail: invitations on the table", "review": "Dense frame sheet reviewed; watched at normal speed"},
+    {"clip": "C0014", "in": 2.0, "duration": 2.0, "role": "Guests arriving", "review": "Dense frame sheet reviewed"},
+    {"clip": "C0027", "in": 0.3, "duration": 1.0, "role": "Candid reaction", "review": "Dense frame sheet reviewed"},
+    {"clip": "C0042", "in": 22.85, "duration": 11.55, "role": "Host's welcome, synchronous speech", "review": "Watched with audio"},
+    {"clip": "C0051", "in": 6.0, "duration": 3.0, "role": "Applause and close", "review": "Dense frame sheet reviewed"}
+  ]
+}

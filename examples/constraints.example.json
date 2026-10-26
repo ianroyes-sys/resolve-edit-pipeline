@@ -1,0 +1,13 @@
+{
+  "feedback": "jobs/spring-gala/feedback.json",
+  "excluded_clips": ["C0019", "C0033"],
+  "required_clips": ["C0042"],
+  "maximum_uses": {"C0011": 1, "C0014": 1, "C0042": 1},
+  "reviewed_ranges": {
+    "C0011": [{"in": 1.5, "out": 3.5, "evidence": "Dense sequential frames + phase-correlation screen; stable"}],
+    "C0014": [{"in": 2.0, "out": 4.0, "evidence": "Dense sequential frames; operator reframes at 4.2s"}],
+    "C0027": [{"in": 0.3, "out": 1.3, "evidence": "Dense sequential frames"}],
+    "C0042": [{"in": 22.8, "out": 34.5, "evidence": "Watched with audio; full sentence"}],
+    "C0051": [{"in": 6.0, "out": 9.0, "evidence": "Dense sequential frames"}]
+  }
+}

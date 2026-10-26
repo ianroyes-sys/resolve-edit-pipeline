@@ -1,0 +1,21 @@
+# Media and generated work never go in the repo
+jobs/
+media/
+exports/
+review/
+*.mov
+*.mp4
+*.MP4
+*.mxf
+*.braw
+*.wav
+*.mp3
+*.drp
+*.drt
+*.drx
+*.jpg
+*.png
+__pycache__/
+.venv/
+.env
+.DS_Store
